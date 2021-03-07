@@ -42,3 +42,17 @@ const urlParameters = getUrlParameters();
    }
  */
 ```
+
+```javascript
+// URL = /foo?name=adam&age=42&isKool=true&criminalRecord=null&pi=3.14
+const urlParameters = getUrlParameters(false);
+/*
+   urlParameters = {
+      name: 'adam',
+      age: '42',
+      isKool: 'true',
+      criminalRecord: 'null',
+      pi: '3.14',
+   }
+ */
+```
