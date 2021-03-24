@@ -1,6 +1,6 @@
 {
   "name": "@toolz/get-url-parameters",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A utility function that determines whether a given string looks like a valid email address",
   "keywords": [
     "url",
